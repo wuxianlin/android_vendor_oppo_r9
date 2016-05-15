@@ -247,10 +247,10 @@ PRODUCT_COPY_FILES += \
  vendor/oppo/r9/proprietary/etc/firmware/wifi.cfg:system/etc/firmware/wifi.cfg \
  vendor/oppo/r9/proprietary/etc/firmware/WIFI_RAM_CODE_6755:system/etc/firmware/WIFI_RAM_CODE_6755 \
  vendor/oppo/r9/proprietary/etc/firmware/WMT_SOC.cfg:system/etc/firmware/WMT_SOC.cfg \
- vendor/oppo/r9/proprietary/etc/mddb/DbgInfo_DSP_MT6755_MOLY_LR11_W1539_MD_MP_V9_P36_T58_2016_04_04_01_50_1_ulwctg_n:system/etc/mddb/DbgInfo_DSP_MT6755_MOLY_LR11_W1539_MD_MP_V9_P36_T58_2016_04_04_01_50_1_ulwctg_n \
- vendor/oppo/r9/proprietary/etc/mddb/DbgInfo_LR11.W1539.MD.MP_OPPO6755_AC0033_66_L_MOLY_LR11_W1539_MD_MP_V9_P36_T58_2016_04_04_03_27_1_ulwctg_n:system/etc/mddb/DbgInfo_LR11.W1539.MD.MP_OPPO6755_AC0033_66_L_MOLY_LR11_W1539_MD_MP_V9_P36_T58_2016_04_04_03_27_1_ulwctg_n \
- vendor/oppo/r9/proprietary/etc/mddb/MDDB_InfoCustomAppSrcP_MT6755_S00_MOLY_LR11_W1539_MD_MP_V9_P36_T58_1_ulwctg_n.EDB:system/etc/mddb/MDDB_InfoCustomAppSrcP_MT6755_S00_MOLY_LR11_W1539_MD_MP_V9_P36_T58_1_ulwctg_n.EDB \
- vendor/oppo/r9/proprietary/etc/mddb/MDDB.META_MT6755_S00_MOLY_LR11_W1539_MD_MP_V9_P36_T58_1_ulwctg_n.EDB:system/etc/mddb/MDDB.META_MT6755_S00_MOLY_LR11_W1539_MD_MP_V9_P36_T58_1_ulwctg_n.EDB \
+ vendor/oppo/r9/proprietary/etc/mddb/DbgInfo_DSP_MT6755_MOLY_LR11_W1539_MD_MP_V9_P2_2016_04_16_02_14_1_ulwctg_n:system/etc/mddb/DbgInfo_DSP_MT6755_MOLY_LR11_W1539_MD_MP_V9_P2_2016_04_16_02_14_1_ulwctg_n \
+ vendor/oppo/r9/proprietary/etc/mddb/DbgInfo_LR11.W1539.MD.MP_OPPO6755_AC0033_66_L_MOLY_LR11_W1539_MD_MP_V9_P2_2016_04_18_19_33_1_ulwctg_n:system/etc/mddb/DbgInfo_LR11.W1539.MD.MP_OPPO6755_AC0033_66_L_MOLY_LR11_W1539_MD_MP_V9_P2_2016_04_18_19_33_1_ulwctg_n \
+ vendor/oppo/r9/proprietary/etc/mddb/MDDB_InfoCustomAppSrcP_MT6755_S00_MOLY_LR11_W1539_MD_MP_V9_P2_1_ulwctg_n.EDB:system/etc/mddb/MDDB_InfoCustomAppSrcP_MT6755_S00_MOLY_LR11_W1539_MD_MP_V9_P2_1_ulwctg_n.EDB \
+ vendor/oppo/r9/proprietary/etc/mddb/MDDB.META_MT6755_S00_MOLY_LR11_W1539_MD_MP_V9_P2_1_ulwctg_n.EDB:system/etc/mddb/MDDB.META_MT6755_S00_MOLY_LR11_W1539_MD_MP_V9_P2_1_ulwctg_n.EDB \
  vendor/oppo/r9/proprietary/etc/mddb/mdm_layout_desc_1_ulwctg_n.dat:system/etc/mddb/mdm_layout_desc_1_ulwctg_n.dat \
  vendor/oppo/r9/proprietary/etc/mtklog-config.prop:system/etc/mtklog-config.prop \
  vendor/oppo/r9/proprietary/etc/mtk_omx_core.cfg:system/etc/mtk_omx_core.cfg \
