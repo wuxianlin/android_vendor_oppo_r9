@@ -25,7 +25,7 @@
  <Param name="MTK_AUDIO_TUNING_TOOL_V2_PHASE" value="2" /> 
  <Param name="MATV_AUDIO_SUPPORT" value="" /> 
  <Param name="MTK_FM_SUPPORT" value="no" /> 
- <Param name="MTK_HEADSET_ACTIVE_NOISE_CANCELLATION_SUPPORT" value="" /> 
+ <Param name="MTK_HEADSET_ACTIVE_NOISE_CANCELLATION" value="" /> 
  <Param name="MTK_SUPPORT_TC1_TUNNING" value="no" /> 
  <Param name="VIR_WIFI_ONLY_SUPPORT" value="no" /> 
  <Param name="VIR_3G_DATA_ONLY_SUPPORT" value="no" /> 

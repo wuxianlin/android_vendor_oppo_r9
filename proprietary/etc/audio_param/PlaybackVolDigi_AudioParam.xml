@@ -8,7 +8,7 @@
     <Param path="System,HS5POLE" param_id="0"/>
     <Param path="Ring,RCV" param_id="0"/>
     <Param path="Ring,HS" param_id="0"/>
-    <Param path="Ring,SPK" param_id="1"/>
+    <Param path="Ring,SPK" param_id="8"/>
     <Param path="Ring,HSSPK" param_id="5"/>
     <Param path="Ring,HS5POLE" param_id="0"/>
     <Param path="Music,RCV" param_id="0"/>
@@ -18,12 +18,12 @@
     <Param path="Music,HS5POLE" param_id="0"/>
     <Param path="Alarm,RCV" param_id="0"/>
     <Param path="Alarm,HS" param_id="0"/>
-    <Param path="Alarm,SPK" param_id="0"/>
+    <Param path="Alarm,SPK" param_id="8"/>
     <Param path="Alarm,HSSPK" param_id="0"/>
     <Param path="Alarm,HS5POLE" param_id="0"/>
     <Param path="Notification,RCV" param_id="0"/>
     <Param path="Notification,HS" param_id="0"/>
-    <Param path="Notification,SPK" param_id="0"/>
+    <Param path="Notification,SPK" param_id="8"/>
     <Param path="Notification,HSSPK" param_id="0"/>
     <Param path="Notification,HS5POLE" param_id="0"/>
     <Param path="Bluetooth_sco,RCV" param_id="0"/>
@@ -88,7 +88,7 @@
       <Param name="digital_gain" value="-64,-62,-60,-57,-54,-51,-48,-45,-42,-39,-36,-33,-30,-27,-24,-21,-18"/>
     </ParamUnit>
     <ParamUnit param_id="8">
-      <Param name="digital_gain" value="-64,-60,-56,-52,-48,-44,-40,-36,-32,-28,-24,-20,-16,-12,-8,-4,0"/>
+      <Param name="digital_gain" value="-64,-30,-28,-26,-24,-22,-20,-18,-16,-14,-12,-10,-8,-6,-4,-2,0"/>
     </ParamUnit>
   </ParamUnitPool>
 </AudioParam>

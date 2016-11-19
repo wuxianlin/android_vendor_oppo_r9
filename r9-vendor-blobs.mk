@@ -76,7 +76,6 @@ PRODUCT_COPY_FILES += \
  vendor/oppo/r9/proprietary/bin/atcid:system/bin/atcid \
  vendor/oppo/r9/proprietary/bin/atci_service:system/bin/atci_service \
  vendor/oppo/r9/proprietary/bin/audiocmdservice_atci:system/bin/audiocmdservice_atci \
- vendor/oppo/r9/proprietary/bin/badblocks:system/bin/badblocks \
  vendor/oppo/r9/proprietary/bin/bmm050d:system/bin/bmm050d \
  vendor/oppo/r9/proprietary/bin/boot_logo_updater:system/bin/boot_logo_updater \
  vendor/oppo/r9/proprietary/bin/btconfig:system/bin/btconfig \
@@ -92,6 +91,8 @@ PRODUCT_COPY_FILES += \
  vendor/oppo/r9/proprietary/bin/em_svr:system/bin/em_svr \
  vendor/oppo/r9/proprietary/bin/fingerprintd:system/bin/fingerprintd \
  vendor/oppo/r9/proprietary/bin/fsck_msdos_mtk:system/bin/fsck_msdos_mtk \
+ vendor/oppo/r9/proprietary/bin/gas_srv:system/bin/gas_srv \
+ vendor/oppo/r9/proprietary/bin/ged_srv:system/bin/ged_srv \
  vendor/oppo/r9/proprietary/bin/geomagneticd:system/bin/geomagneticd \
  vendor/oppo/r9/proprietary/bin/gsm0710muxd:system/bin/gsm0710muxd \
  vendor/oppo/r9/proprietary/bin/gsm0710muxdmd2:system/bin/gsm0710muxdmd2 \
@@ -214,22 +215,16 @@ PRODUCT_COPY_FILES += \
  vendor/oppo/r9/proprietary/etc/firmware/catcher_filter_1_ulwctg_n.bin:system/etc/firmware/catcher_filter_1_ulwctg_n.bin \
  vendor/oppo/r9/proprietary/etc/firmware/catcher_filter_3_3g_n.bin:system/etc/firmware/catcher_filter_3_3g_n.bin \
  vendor/oppo/r9/proprietary/etc/firmware/dsp_1_ulwctg_n.bin:system/etc/firmware/dsp_1_ulwctg_n.bin \
+ vendor/oppo/r9/proprietary/etc/firmware/em_filter_1_ulwctg_n.bin:system/etc/firmware/em_filter_1_ulwctg_n.bin \
  vendor/oppo/r9/proprietary/etc/firmware/modem_1_ulwctg_n.img:system/etc/firmware/modem_1_ulwctg_n.img \
  vendor/oppo/r9/proprietary/etc/firmware/modem_3_3g_n.img:system/etc/firmware/modem_3_3g_n.img \
  vendor/oppo/r9/proprietary/etc/firmware/pcm_deepidle.bin:system/etc/firmware/pcm_deepidle.bin \
  vendor/oppo/r9/proprietary/etc/firmware/pcm_deepidle_by_mp1.bin:system/etc/firmware/pcm_deepidle_by_mp1.bin \
- vendor/oppo/r9/proprietary/etc/firmware/pcm_deepidle_by_mp1_m.bin:system/etc/firmware/pcm_deepidle_by_mp1_m.bin \
- vendor/oppo/r9/proprietary/etc/firmware/pcm_deepidle_m.bin:system/etc/firmware/pcm_deepidle_m.bin \
  vendor/oppo/r9/proprietary/etc/firmware/pcm_mcdi_ddrdfs.bin:system/etc/firmware/pcm_mcdi_ddrdfs.bin \
- vendor/oppo/r9/proprietary/etc/firmware/pcm_mcdi_ddrdfs_m.bin:system/etc/firmware/pcm_mcdi_ddrdfs_m.bin \
  vendor/oppo/r9/proprietary/etc/firmware/pcm_sodi_ddrdfs.bin:system/etc/firmware/pcm_sodi_ddrdfs.bin \
  vendor/oppo/r9/proprietary/etc/firmware/pcm_sodi_ddrdfs_by_mp1.bin:system/etc/firmware/pcm_sodi_ddrdfs_by_mp1.bin \
- vendor/oppo/r9/proprietary/etc/firmware/pcm_sodi_ddrdfs_by_mp1_m.bin:system/etc/firmware/pcm_sodi_ddrdfs_by_mp1_m.bin \
- vendor/oppo/r9/proprietary/etc/firmware/pcm_sodi_ddrdfs_m.bin:system/etc/firmware/pcm_sodi_ddrdfs_m.bin \
  vendor/oppo/r9/proprietary/etc/firmware/pcm_suspend.bin:system/etc/firmware/pcm_suspend.bin \
  vendor/oppo/r9/proprietary/etc/firmware/pcm_suspend_by_mp1.bin:system/etc/firmware/pcm_suspend_by_mp1.bin \
- vendor/oppo/r9/proprietary/etc/firmware/pcm_suspend_by_mp1_m.bin:system/etc/firmware/pcm_suspend_by_mp1_m.bin \
- vendor/oppo/r9/proprietary/etc/firmware/pcm_suspend_m.bin:system/etc/firmware/pcm_suspend_m.bin \
  vendor/oppo/r9/proprietary/etc/firmware/ROMv2_lm_patch_1_0_hdr.bin:system/etc/firmware/ROMv2_lm_patch_1_0_hdr.bin \
  vendor/oppo/r9/proprietary/etc/firmware/ROMv2_lm_patch_1_1_hdr.bin:system/etc/firmware/ROMv2_lm_patch_1_1_hdr.bin \
  vendor/oppo/r9/proprietary/etc/firmware/tp/15101_FW_S1302_Samsung.img:system/etc/firmware/tp/15101_FW_S1302_Samsung.img \
@@ -240,17 +235,22 @@ PRODUCT_COPY_FILES += \
  vendor/oppo/r9/proprietary/etc/firmware/tp/15111_FW_S3508_Samsung.img:system/etc/firmware/tp/15111_FW_S3508_Samsung.img \
  vendor/oppo/r9/proprietary/etc/firmware/tp/15111_key_Limit_Samsung.img:system/etc/firmware/tp/15111_key_Limit_Samsung.img \
  vendor/oppo/r9/proprietary/etc/firmware/tp/15111_Limit_Samsung.img:system/etc/firmware/tp/15111_Limit_Samsung.img \
+ vendor/oppo/r9/proprietary/etc/firmware/tp/15127_FW_BIEL.img:system/etc/firmware/tp/15127_FW_BIEL.img \
  vendor/oppo/r9/proprietary/etc/firmware/tp/15127_FW_OFILM.img:system/etc/firmware/tp/15127_FW_OFILM.img \
  vendor/oppo/r9/proprietary/etc/firmware/tp/15127_FW_Truly.img:system/etc/firmware/tp/15127_FW_Truly.img \
+ vendor/oppo/r9/proprietary/etc/firmware/tp/15127_Limit_BIEL.img:system/etc/firmware/tp/15127_Limit_BIEL.img \
  vendor/oppo/r9/proprietary/etc/firmware/tp/15127_Limit_OFILM.img:system/etc/firmware/tp/15127_Limit_OFILM.img \
  vendor/oppo/r9/proprietary/etc/firmware/tp/15127_Limit_Truly.img:system/etc/firmware/tp/15127_Limit_Truly.img \
+ vendor/oppo/r9/proprietary/etc/firmware/tp/16031_FW_S3320_JDI.img:system/etc/firmware/tp/16031_FW_S3320_JDI.img \
+ vendor/oppo/r9/proprietary/etc/firmware/tp/16031_Limit_JDI.img:system/etc/firmware/tp/16031_Limit_JDI.img \
  vendor/oppo/r9/proprietary/etc/firmware/wifi.cfg:system/etc/firmware/wifi.cfg \
  vendor/oppo/r9/proprietary/etc/firmware/WIFI_RAM_CODE_6755:system/etc/firmware/WIFI_RAM_CODE_6755 \
  vendor/oppo/r9/proprietary/etc/firmware/WMT_SOC.cfg:system/etc/firmware/WMT_SOC.cfg \
- vendor/oppo/r9/proprietary/etc/mddb/DbgInfo_DSP_MT6755_MOLY_LR11_W1539_MD_MP_V9_P2_2016_04_16_02_14_1_ulwctg_n:system/etc/mddb/DbgInfo_DSP_MT6755_MOLY_LR11_W1539_MD_MP_V9_P2_2016_04_16_02_14_1_ulwctg_n \
- vendor/oppo/r9/proprietary/etc/mddb/DbgInfo_LR11.W1539.MD.MP_OPPO6755_AC0033_66_L_MOLY_LR11_W1539_MD_MP_V9_P2_2016_04_18_19_33_1_ulwctg_n:system/etc/mddb/DbgInfo_LR11.W1539.MD.MP_OPPO6755_AC0033_66_L_MOLY_LR11_W1539_MD_MP_V9_P2_2016_04_18_19_33_1_ulwctg_n \
- vendor/oppo/r9/proprietary/etc/mddb/MDDB_InfoCustomAppSrcP_MT6755_S00_MOLY_LR11_W1539_MD_MP_V9_P2_1_ulwctg_n.EDB:system/etc/mddb/MDDB_InfoCustomAppSrcP_MT6755_S00_MOLY_LR11_W1539_MD_MP_V9_P2_1_ulwctg_n.EDB \
- vendor/oppo/r9/proprietary/etc/mddb/MDDB.META_MT6755_S00_MOLY_LR11_W1539_MD_MP_V9_P2_1_ulwctg_n.EDB:system/etc/mddb/MDDB.META_MT6755_S00_MOLY_LR11_W1539_MD_MP_V9_P2_1_ulwctg_n.EDB \
+ vendor/oppo/r9/proprietary/etc/mddb/DbgInfo_DSP_MT6755_MOLY_LR11_W1539_MD_TC16_R9E_SP_V1_P2_2016_07_24_13_10_1_ulwctg_n:system/etc/mddb/DbgInfo_DSP_MT6755_MOLY_LR11_W1539_MD_TC16_R9E_SP_V1_P2_2016_07_24_13_10_1_ulwctg_n \
+ vendor/oppo/r9/proprietary/etc/mddb/DbgInfo_LR11.W1539.MD.TC16.R9E.SP_OPPO6755_AC0033_66_L_MOLY_LR11_W1539_MD_TC16_R9E_SP_V1_P2_2016_07_27_11_18_1_ulwctg_n:system/etc/mddb/DbgInfo_LR11.W1539.MD.TC16.R9E.SP_OPPO6755_AC0033_66_L_MOLY_LR11_W1539_MD_TC16_R9E_SP_V1_P2_2016_07_27_11_18_1_ulwctg_n \
+ vendor/oppo/r9/proprietary/etc/mddb/MDDB.C2K.META_MT6755_S00_SIXTH_CBP_MD_MP3_TC16_R9E_SP_V1_P3_3_3g_n.EDB:system/etc/mddb/MDDB.C2K.META_MT6755_S00_SIXTH_CBP_MD_MP3_TC16_R9E_SP_V1_P3_3_3g_n.EDB \
+ vendor/oppo/r9/proprietary/etc/mddb/MDDB_InfoCustomAppSrcP_MT6755_S00_MOLY_LR11_W1539_MD_TC16_R9E_SP_V1_P2_1_ulwctg_n.EDB:system/etc/mddb/MDDB_InfoCustomAppSrcP_MT6755_S00_MOLY_LR11_W1539_MD_TC16_R9E_SP_V1_P2_1_ulwctg_n.EDB \
+ vendor/oppo/r9/proprietary/etc/mddb/MDDB.META_MT6755_S00_MOLY_LR11_W1539_MD_TC16_R9E_SP_V1_P2_1_ulwctg_n.EDB:system/etc/mddb/MDDB.META_MT6755_S00_MOLY_LR11_W1539_MD_TC16_R9E_SP_V1_P2_1_ulwctg_n.EDB \
  vendor/oppo/r9/proprietary/etc/mddb/mdm_layout_desc_1_ulwctg_n.dat:system/etc/mddb/mdm_layout_desc_1_ulwctg_n.dat \
  vendor/oppo/r9/proprietary/etc/mtklog-config.prop:system/etc/mtklog-config.prop \
  vendor/oppo/r9/proprietary/etc/mtk_omx_core.cfg:system/etc/mtk_omx_core.cfg \
@@ -263,8 +263,10 @@ PRODUCT_COPY_FILES += \
  vendor/oppo/r9/proprietary/etc/smartpa_params/Speech_0_0_TFA9890_1111.eq:system/etc/smartpa_params/Speech_0_0_TFA9890_1111.eq \
  vendor/oppo/r9/proprietary/etc/smartpa_params/Speech_0_0_TFA9890_1111.preset:system/etc/smartpa_params/Speech_0_0_TFA9890_1111.preset \
  vendor/oppo/r9/proprietary/etc/smartpa_params/TFA9890_1111.speaker:system/etc/smartpa_params/TFA9890_1111.speaker \
+ vendor/oppo/r9/proprietary/etc/smartpa_params/tfa9890.cnt:system/etc/smartpa_params/tfa9890.cnt \
  vendor/oppo/r9/proprietary/etc/smartpa_params/TFA9890_N1B12_N1C3_v3.config:system/etc/smartpa_params/TFA9890_N1B12_N1C3_v3.config \
  vendor/oppo/r9/proprietary/etc/smartpa_params/TFA9890_N1C3_2_1_1.patch:system/etc/smartpa_params/TFA9890_N1C3_2_1_1.patch \
+ vendor/oppo/r9/proprietary/etc/smartpa_params/tfa9891.cnt:system/etc/smartpa_params/tfa9891.cnt \
  vendor/oppo/r9/proprietary/etc/.tp/.ht120.mtc:system/etc/.tp/.ht120.mtc \
  vendor/oppo/r9/proprietary/etc/.tp/thermal.conf:system/etc/.tp/thermal.conf \
  vendor/oppo/r9/proprietary/etc/.tp/.thermal_meta.conf:system/etc/.tp/.thermal_meta.conf \
@@ -353,7 +355,6 @@ PRODUCT_COPY_FILES += \
  vendor/oppo/r9/proprietary/lib64/libcam_utils.so:system/lib64/libcam_utils.so \
  vendor/oppo/r9/proprietary/lib64/libcam.utils.so:system/lib64/libcam.utils.so \
  vendor/oppo/r9/proprietary/lib64/libccci_util.so:system/lib64/libccci_util.so \
- vendor/oppo/r9/proprietary/lib64/libcurl.so:system/lib64/libcurl.so \
  vendor/oppo/r9/proprietary/lib64/libCustomFeature.so:system/lib64/libCustomFeature.so \
  vendor/oppo/r9/proprietary/lib64/libcustom_jni.so:system/lib64/libcustom_jni.so \
  vendor/oppo/r9/proprietary/lib64/libcustom_nvram.so:system/lib64/libcustom_nvram.so \
@@ -380,6 +381,7 @@ PRODUCT_COPY_FILES += \
  vendor/oppo/r9/proprietary/lib64/libfeatureiodrv.so:system/lib64/libfeatureiodrv.so \
  vendor/oppo/r9/proprietary/lib64/libfeatureio.so:system/lib64/libfeatureio.so \
  vendor/oppo/r9/proprietary/lib64/libfile_op.so:system/lib64/libfile_op.so \
+ vendor/oppo/r9/proprietary/lib64/libfingerprintd_binder.so:system/lib64/libfingerprintd_binder.so \
  vendor/oppo/r9/proprietary/lib64/libgas.so:system/lib64/libgas.so \
  vendor/oppo/r9/proprietary/lib64/libGdmaScalerPipe.so:system/lib64/libGdmaScalerPipe.so \
  vendor/oppo/r9/proprietary/lib64/libged.so:system/lib64/libged.so \
@@ -458,8 +460,6 @@ PRODUCT_COPY_FILES += \
  vendor/oppo/r9/proprietary/lib64/libSwJpgCodec.so:system/lib64/libSwJpgCodec.so \
  vendor/oppo/r9/proprietary/lib64/libterservice.so:system/lib64/libterservice.so \
  vendor/oppo/r9/proprietary/lib64/libtfaspeaker.so:system/lib64/libtfaspeaker.so \
- vendor/oppo/r9/proprietary/lib64/libtinycompress.so:system/lib64/libtinycompress.so \
- vendor/oppo/r9/proprietary/lib64/libtinyxml.so:system/lib64/libtinyxml.so \
  vendor/oppo/r9/proprietary/lib64/libtouchfilter.so:system/lib64/libtouchfilter.so \
  vendor/oppo/r9/proprietary/lib64/libudf.so:system/lib64/libudf.so \
  vendor/oppo/r9/proprietary/lib64/libui_ext.so:system/lib64/libui_ext.so \
@@ -553,7 +553,6 @@ PRODUCT_COPY_FILES += \
  vendor/oppo/r9/proprietary/lib/libcam_utils.so:system/lib/libcam_utils.so \
  vendor/oppo/r9/proprietary/lib/libcam.utils.so:system/lib/libcam.utils.so \
  vendor/oppo/r9/proprietary/lib/libccci_util.so:system/lib/libccci_util.so \
- vendor/oppo/r9/proprietary/lib/libcurl.so:system/lib/libcurl.so \
  vendor/oppo/r9/proprietary/lib/libCustomFeature.so:system/lib/libCustomFeature.so \
  vendor/oppo/r9/proprietary/lib/libcustom_jni.so:system/lib/libcustom_jni.so \
  vendor/oppo/r9/proprietary/lib/libcustom_nvram.so:system/lib/libcustom_nvram.so \
@@ -634,7 +633,6 @@ PRODUCT_COPY_FILES += \
  vendor/oppo/r9/proprietary/lib/libmpo.so:system/lib/libmpo.so \
  vendor/oppo/r9/proprietary/lib/libmrdump.so:system/lib/libmrdump.so \
  vendor/oppo/r9/proprietary/lib/libmsbc_mtk.so:system/lib/libmsbc_mtk.so \
- vendor/oppo/r9/proprietary/lib/libm.so:system/lib/libm.so \
  vendor/oppo/r9/proprietary/lib/libmtb.so:system/lib/libmtb.so \
  vendor/oppo/r9/proprietary/lib/libmtcloader.so:system/lib/libmtcloader.so \
  vendor/oppo/r9/proprietary/lib/libmtkbtextspp.so:system/lib/libmtkbtextspp.so \
@@ -689,9 +687,8 @@ PRODUCT_COPY_FILES += \
  vendor/oppo/r9/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
  vendor/oppo/r9/proprietary/lib/libSwJpgCodec.so:system/lib/libSwJpgCodec.so \
  vendor/oppo/r9/proprietary/lib/libtfaspeaker.so:system/lib/libtfaspeaker.so \
+ vendor/oppo/r9/proprietary/lib/libthermalalgo.so:system/lib/libthermalalgo.so \
  vendor/oppo/r9/proprietary/lib/libtimestretch.so:system/lib/libtimestretch.so \
- vendor/oppo/r9/proprietary/lib/libtinycompress.so:system/lib/libtinycompress.so \
- vendor/oppo/r9/proprietary/lib/libtinyxml.so:system/lib/libtinyxml.so \
  vendor/oppo/r9/proprietary/lib/libtouchfilter.so:system/lib/libtouchfilter.so \
  vendor/oppo/r9/proprietary/lib/libudf.so:system/lib/libudf.so \
  vendor/oppo/r9/proprietary/lib/libui_ext.so:system/lib/libui_ext.so \
@@ -705,6 +702,8 @@ PRODUCT_COPY_FILES += \
  vendor/oppo/r9/proprietary/lib/libvp8dec_sa.ca7.so:system/lib/libvp8dec_sa.ca7.so \
  vendor/oppo/r9/proprietary/lib/libvp8enc_sa.ca7.so:system/lib/libvp8enc_sa.ca7.so \
  vendor/oppo/r9/proprietary/lib/libvp9dec_sa.ca7.so:system/lib/libvp9dec_sa.ca7.so \
+ vendor/oppo/r9/proprietary/lib/modules/hypnus.ko:system/lib/modules/hypnus.ko \
+ vendor/oppo/r9/proprietary/lib/modules/procmon.ko:system/lib/modules/procmon.ko \
  vendor/oppo/r9/proprietary/lib/mtk-rilmd2.so:system/lib/mtk-rilmd2.so \
  vendor/oppo/r9/proprietary/lib/mtk-ril.so:system/lib/mtk-ril.so \
  vendor/oppo/r9/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so \
